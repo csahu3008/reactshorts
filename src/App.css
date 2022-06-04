@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+.App{
+    margin: auto;
+    max-width: 317px;
+    background-color: #F5F5F5;
+    margin-top: 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info{
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+}
+.info > h2{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 30px;
+    text-align: center;
+    color: #2B283A;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info > h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #F47D27;
+}
+.info > p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    
+    color: #4A4E74;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.connection_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 18px;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.connect{
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #297FE5;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;  
+    margin-bottom: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.lower{
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 30px;
+}
+
+.footer{
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > img{
+    margin: 10px;
+
 }
